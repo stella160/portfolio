@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/style.css">
-  
+    
     <!--=============== box icons ===============-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         
@@ -98,76 +99,81 @@
         </div>
 
       </section>
+     
       
+      <!-- *** Services Section *** -->
+
+      <section id="services" class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+          
+          <div class="services-box">
+            <i class='bx bxs-data bx-tada' ></i>
+            <h3>Data Analysis</h3>
+            <p>I handle quantitative data analysis using Microsoft Excel, 
+              R Studio and other statistical packages</p>
+              <a href="#" class="btn">Read More</a>
+          </div>
+          
+          <div class="services-box">
+            <i class='bx bx-edit bx-fade-right' ></i>
+            <h3>Writing</h3>
+            <p>I offer proposal and grant writing services as well as
+               drafting reports and presentation slides. </p>
+              <a href="#" class="btn">Read More</a>
+          </div>
+          
+          <div class="services-box">
+            <i class='bx bx-stats bx-spin bx-rotate-180'></i>
+            <h3>Biostatistics</h3>
+            <p>Feel free to reach me for Bioinformatics Consultation</p>
+              <a href="#" class="btn">Read More</a>
+          </div>
+
+        </div>
+      </section>
       
       <!-- **** Projects Section **** -->
       
-      <section id="projects">
-        <div class="projects-container">
-          <h2>Projects</h2>
+      <section id="projects" class="projects" >
+          <h2 class="heading">Latest <span>Projects</span></h2>
       
-          <!-- Project 1: Breast Cancer Analysis in Meru -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Breast Cancer Analysis in Meru</h3>
-            <div>
-              <p class="mb-4">
-                Conducted an in-depth analysis of breast cancer patient records to identify trends and associations between age, BMI, Ki67, and cancer subtypes. Focused on accurate data categorization and imputation of missing values to ensure high-quality insights.
-              </p>
-            </div>
-            <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--hero"
-            href="https://example.com/breast-cancer-analysis"
-            >
-            See Live
-            </a>
-            <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn text-color-main"
-            href="https://github.com/stellamarries/breast-cancer-analysis"
-            >
-            Source Code
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-8 col-sm-12">
-          <div class="project-wrapper__image load-hidden">
-            <a rel="noreferrer" href="https://example.com/breast-cancer-analysis" target="_blank">
-              <div
-              data-tilt
-              data-tilt-max="4"
-              data-tilt-glare="true"
-              data-tilt-max-glare="0.5"
-              class="thumbnail rounded js-tilt"
-              >
-                <img
-                  alt="Breast Cancer Analysis Project"
-                  class="img-fluid"
-                  src="assets/breast-cancer-analysis.jpg"
-                />
+          <div class="projects-container">
+            <div class="project-box">
+              <!-- Project 1: Breast Cancer Analysis in Meru -->
+              <img alt="Breast Cancer Analysis Project" src="assets/img/profile2.png"/>
+              <div class="project-layer">
+                <h4>Breast Cancer Analysis in Meru</h4>
+                <p>Conducted an in-depth analysis of breast cancer patient 
+                records to identify trends and associations between age, BMI, 
+                Ki67, and cancer subtypes. Focused on accurate data categorization 
+                and imputation of missing values to ensure high-quality insights.
+                </p>
+                <a href="https://github.com/stellamarries/breast-cancer-analysis">
+                  <i class="bx bx-link-external"></i>
+                </a>
               </div>
-            </a>
-          </div>
-        </div>
-      </div>
+            </div>
 
-    <!-- Project 2: Esophageal Cancer in Garissa -->
-    <div class="row">
-      <h3>Esophageal Cancer in Garissa</h3>
-      <p>
-        A comprehensive genomic and clinical profiling project utilizing whole exome sequencing to study esophageal cancer cases in Garissa. The project explores associations between socio-demographic factors, risk factors, and clinical outcomes to inform public health interventions.
-      </p>
- 
-      <a href="https://example.com/esophageal-cancer-garissa">View Project</a>
-      <a href="https://github.com/stellamarries/esophageal-cancer-garissa">Source code</a>
-      <img alt="Esophageal Cancer Project" class="img-fluid" src="assets/img/profile1.png"/>
-    </div>
-    
-    
+            <div class="project-box">
+              <!-- Project 2: Esophageal Cancer in Garissa -->
+              <img alt="Breast Cancer Analysis Project" src="assets/img/profile2.png"/>
+              <div class="project-layer">
+                <h4>Esophageal Cancer in Garissa</h4>
+                <p> A comprehensive genomic and clinical profiling project utilizing whole exome 
+                  sequencing to study esophageal cancer cases in Garissa. The project explores 
+                  associations between socio-demographic factors, risk factors, and clinical outcomes 
+                  to inform public health interventions.
+                </p>
+                <a href="https://github.com/stellamarries/breast-cancer-analysis">
+                  <i class="bx bx-link-external"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+      </section>
     <!-- **** Contact Section **** -->
 
     <section id="contact">
@@ -190,7 +196,7 @@
 
     
     <!-- Footer -->
-     <footer class="footer navbar-static-bottom">
+    <footer class="footer navbar-static-bottom">
       <div class="container">
         <p class="footer__text">
           &copy; 2024 Stellamarries Syombua. All rights reserved.
@@ -198,7 +204,7 @@
         <div class="social-links">
           
           <!-- Twitter -->
-           <a href="https://x.com/marries394057?t=7NnUkRSE_oSgEe_uTOYzNw&s=09" target="_blank" aria-label="Twitter">
+          <a href="https://x.com/marries394057?t=7NnUkRSE_oSgEe_uTOYzNw&s=09" target="_blank" aria-label="Twitter">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
       
@@ -221,5 +227,5 @@
       </div>
     </footer>
   
-    </body>
-  </html>
+  </body>
+</html>
