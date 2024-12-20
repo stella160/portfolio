@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); 
 
+/* Global Env*/
+
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +37,8 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+
+/* Header section*/
 .header {
     position: fixed;
     top: 0;
@@ -77,6 +81,8 @@ section {
     display: none;
 }
 
+
+/* Home section*/
 .home {
     display: flex;
     justify-content: center;
@@ -145,6 +151,8 @@ section {
     box-shadow: none;
 }
 
+
+/* About section*/
 .about {
     display: flex;
     justify-content: center;
@@ -156,10 +164,6 @@ section {
  .about span {
     color: var(--main-color);
     font-weight: 600;
- }
-
- .about .btn {
-    justify-content: center;
  }
 
  .about-img img {
@@ -186,6 +190,13 @@ section {
     text-align: justify;
 }
 
+.about-container .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+/* Services section*/
 .services h2 {
     margin-bottom: 5rem;
 }
@@ -231,6 +242,8 @@ section {
     margin: 1rem 0 3rem;
 }
 
+
+/* Projects section*/
 .projects {
     background: var(--sub2-color);
 }
@@ -310,5 +323,91 @@ section {
 
 .project-layer a i {
     font-size: 2rem;
+    color: #fff;
+}
+
+
+/* Contact section*/
+.contact h2 {
+    margin-bottom: 3rem; 
+}
+
+.contact h2 span {
+    color: var(--sub1-color);
+}
+
+.contact p {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #1a1a1a;
+    background: var(--sub2-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input {
+    width: 49%;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form .btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+/* Footer Section*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--sub2-color);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-icon a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.footer-icon a:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-icon a i {
+    font-size: 2.4rem;
     color: #fff;
 }
