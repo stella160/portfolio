@@ -787,7 +787,6 @@
                         </p>
                     </div>
                     <div class="project-links">
-                        <a href="#"><i class='bx bx-link-external'></i> View Project</a>
                         <a href="https://github.com/stella160/Esophageal-cancer"><i class='bx bxl-github'></i> Code</a>
                     </div>
                 </div>
@@ -814,7 +813,7 @@
                         <p>Significant associations were observed between breast cancer subtypes and occupation with farmers being the most represented occupational group (p = 0.002), HER2 status (p
                             < 0.001), and the Ki-67 index (p=0 .044). Age, BMI, marital status, and receptor status (ER, PR) were not statistically associated with subtypes. </div>
                                 <div class="project-links">
-                                    <a href="#"><i class='bx bx-link-external'></i> View Project</a>
+
                                     <a href="https://github.com/stella160/Meru-Breast-Cancer-Analysis"><i class='bx bxl-github'></i> Code</a>
                                 </div>
                     </div>
@@ -846,7 +845,6 @@
                                 65–75 years, where most cases were diagnosed with cancer.</p>
                         </div>
                         <div class="project-links">
-                            <a href="#"><i class='bx bx-link-external'></i> View Project</a>
                             <a href="https://github.com/stella160/Binary_lung_cancer_analysis"><i class='bx bxl-github'></i> Code</a>
                         </div>
                     </div>
@@ -876,7 +874,6 @@
                                 variables, informing targeted public health interventions.</p>
                         </div>
                         <div class="project-links">
-                            <a href="#"><i class='bx bx-link-external'></i> View Project</a>
                             <a href="https://github.com/stella160/Spatial_Modelling"><i class='bx bxl-github'></i> Code</a>
                         </div>
                     </div>
@@ -907,7 +904,6 @@
                                 approaches for at-risk populations.</p>
                         </div>
                         <div class="project-links">
-                            <a href="#"><i class='bx bx-link-external'></i> View Project</a>
                             <a href="https://github.com/stella160/Liver-HCC-_Analysis"><i class='bx bxl-github'></i> Code</a>
                         </div>
                     </div>
@@ -937,7 +933,6 @@
                         </div>
                         <div class="project-links">
                             <a href="#"><i class='bx bx-link-external'></i> View Project</a>
-                            <a href="#"><i class='bx bxl-github'></i> Code</a>
                         </div>
                     </div>
                 </div>
@@ -949,16 +944,20 @@
         <h2 class="heading">Contact <span>Me!</span></h2>
         <p>Are you interested in collaborating on a project or need assistance with data analysis, biostatistics, or Reporting? I'd love to hear from you! Feel free to reach out.</p>
 
-        <form action="#" class="contact-form">
+        <form action="https://formspree.io/f/xjkelrbv" method="POST" class="contact-form">
+            <!-- Add this hidden field to specify recipient -->
+            <input type="hidden" name="_replyto" value="stellamarriessyombua@gmail.com">
+            <input type="hidden" name="_subject" value="New Message from Portfolio">
+
             <div class="input-box">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="tel" name="phone" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject" required>
             </div>
-            <textarea placeholder="Your Message"></textarea>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
